@@ -29,7 +29,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background:blue;
     color: white;
     min-width: 260px;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color:blue !important;
 }
 
 .border-black {
