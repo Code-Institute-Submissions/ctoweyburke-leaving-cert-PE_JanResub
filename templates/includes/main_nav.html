@@ -17,10 +17,10 @@
                 Resources
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="resources-link">
-                <a href="" class="dropdown-item">Junior Cert</a>
-                <a href="" class="dropdown-item">Leaving Cert</a>
-                <a href="" class="dropdown-item">LCA</a>
-                <a href="" class="dropdown-item">PLC</a>
+                <a href="{% url 'products' %}?category=junior_cert" class="dropdown-item">Junior Cert</a>
+                <a href="{% url 'products' %}?category=leaving_cert" class="dropdown-item">Leaving Cert</a>
+                <a href="{% url 'products' %}?category=lca, plc" class="dropdown-item">LCA & PLC</a>
+                <a href="{% url 'products' %}?category=junior_cert,leaving_cert,lca,plc" class="dropdown-item">All Resources</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Exams
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="exams-link">
-                <a href="" class="dropdown-item">Coursework</a>
-                <a href="" class="dropdown-item">Exam Prep</a>
-                <a href="" class="dropdown-item">Practical Assessment</a>
-                <a href="" class="dropdown-item">Overall Exam Prep</a>
+                <a href="{% url 'products' %}?category=coursework" class="dropdown-item">Coursework</a>
+                <a href="{% url 'products' %}?category=exam_prep" class="dropdown-item">Exam Prep</a>
+                <a href="{% url 'products' %}?category=practical_assessment" class="dropdown-item">Practical Assessment</a>
+                <a href="{% url 'products' %}?category=coursework,exam_prep,practical_assessment" class="dropdown-item">All Exam Prep</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="special-link">
-                <a href="" class="dropdown-item">JC/LC Products</a>
-                <a href="" class="dropdown-item">LCA/PLC</a>
-                <a href="" class="dropdown-item">Mix Packages</a>
-                <a href="" class="dropdown-item">Comming Soon</a>
+                <a href="{% url 'products' %}?category=new_resources" class="dropdown-item">New resources</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">clearance</a>
+                <a href="{% url 'products' %}?category=new_resources,deals,clearance" class="dropdown-item">All specials</a>
             </div>
         </li>
     </ul>

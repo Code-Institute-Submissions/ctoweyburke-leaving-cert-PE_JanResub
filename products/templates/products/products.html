@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+{{ products }}
 <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
@@ -51,18 +52,18 @@
                         </div>
                     </div>
                 </div>
-                {% if forloop.counter|divisible:4 %}
+                {% if forloop.counter|divisibleby:4 %}
                 <div class="col-12 d-sm-none mb-5">
                     <hr>
                 </div>
                 {% endif %}
-                {% if forloop.counter|divisible:2 %}
+                {% if forloop.counter|divisibleby:2 %}
                 <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
                     <hr>
                 </div>
                 {% endif %}
 
-                {% if forloop.counter|divisible:3 %}
+                {% if forloop.counter|divisibleby:3 %}
                 <div class="col-12 d-none d-lg-block d-xl-none mb-5">
                     <hr>
                 </div>
