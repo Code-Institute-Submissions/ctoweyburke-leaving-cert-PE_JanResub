@@ -1,0 +1,227 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Active4life#",
+          "description":"JC PE Programme ",
+          "price":53.99,
+          "category":1,
+          "rating":4.6,
+          "image_url":"",
+          "image":"active4life#.jpg"
+       }
+    },
+
+    {
+        "pk":2,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"groupstudype",
+           "description":"Mentoring for all ages ",
+           "price":53.99,
+           "category":5,
+           "rating":4.6,
+           "image_url":"",
+           "image":"groupstudype.jpg"
+        }
+     },
+
+     {
+        "pk":3,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"hraworksheets",
+           "description":"Health Related Worksheets for LC",
+           "price":53.99,
+           "category":2,
+           "rating":4.6,
+           "image_url":"",
+           "image":"hraworksheets.jpg"
+        }
+     },
+
+     {
+        "pk":4,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"JC LC Text Book",
+           "description":"Text book for support",
+           "price":53.99,
+           "category":1,
+           "rating":4.6,
+           "image_url":"",
+           "image":"jclcproducts.jpg"
+        }
+     },
+
+     {
+        "pk":5,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"JC Text Book on Track",
+           "description":"Text book for Practical activites JC",
+           "price":53.99,
+           "category":1,
+           "rating":4.6,
+           "image_url":"",
+           "image":"juniorcertontrack.jpg"
+        }
+     },
+
+     {
+        "pk":6,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"Leaving Cert PAP ",
+           "description":"Leaving Cert PAP Project",
+           "price":53.99,
+           "category":2,
+           "rating":4.6,
+           "image_url":"",
+           "image":"lcpepap.jpg"
+        }
+     },
+
+     {
+        "pk":7,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"LC PE Assessment",
+           "description":"LC PE Assessment Criteria",
+           "price":53.99,
+           "category":2,
+           "rating":4.6,
+           "image_url":"",
+           "image":"lcpeformanceass.jpg"
+        }
+     },
+
+     {
+        "pk":8,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"Mentoring",
+           "description":"Mentoring Lessons",
+           "price":53.99,
+           "category":5,
+           "rating":4.6,
+           "image_url":"",
+           "image":"mentoring.jpg"
+        }
+     },
+
+     {
+        "pk":9,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"Mentoring PLC",
+           "description":"Mentoring support for PLC Students",
+           "price":53.99,
+           "category":4,
+           "rating":4.6,
+           "image_url":"",
+           "image":"mentoringpe.jpg"
+        }
+     },
+
+     {
+        "pk":10,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"On your Marks LC Text Book",
+           "description":"Text book for LCA",
+           "price":53.99,
+           "category":3,
+           "rating":4.6,
+           "image_url":"",
+           "image":"onyourmarksbook.jpg"
+        }
+     },
+
+     {
+        "pk":11,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"Peak Performance Text Book",
+           "description":"Text book for Peak Performance & Support",
+           "price":53.99,
+           "category":3,
+           "rating":4.6,
+           "image_url":"",
+           "image":"peakperformance.jpg"
+        }
+     },
+
+     {
+        "pk":12,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"PE Curriculum Ireland",
+           "description":"PE Curriculum for Mentoring",
+           "price":53.99,
+           "category":5,
+           "rating":4.6,
+           "image_url":"",
+           "image":"pecurriculumpe.jpg"
+        }
+     },
+
+     {
+        "pk":13,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"PLC Sports",
+           "description":"PLC Sports Courses",
+           "price":53.99,
+           "category":4,
+           "rating":4.6,
+           "image_url":"",
+           "image":"plcsport.jpg"
+        }
+     },
+
+     {
+        "pk":14,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"Teacher Webinars PE",
+           "description":"Book teacher led webinars as a study support",
+           "price":53.99,
+           "category":5,
+           "rating":4.6,
+           "image_url":"",
+           "image":"teacherswebinarpe.jpg"
+        }
+     },
+
+     {
+        "pk":15,
+        "model":"products.product",
+        "fields":{
+           "sku":"pp5001340155",
+           "name":"Webinar PE",
+           "description":"Webinars based on specifici topics",
+           "price":53.99,
+           "category":5,
+           "rating":4.6,
+           "image_url":"",
+           "image":"webinarpe.jpg"
+        }
+     }
+
+]

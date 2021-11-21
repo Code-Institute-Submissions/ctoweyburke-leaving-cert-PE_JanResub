@@ -1,0 +1,43 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "Junior Cert",
+            "friendly_name": "JC PE"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "Leaving Cert",
+            "friendly_name": "LC PE"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "Leaving Cert Applied PE",
+            "friendly_name": "LCA PE"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "Post Leaving Cert Courses PE",
+            "friendly_name": "PLC PE"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "Mentoring PE",
+            "friendly_name": "Mentoring PE"
+        }
+    }
+    
+]
