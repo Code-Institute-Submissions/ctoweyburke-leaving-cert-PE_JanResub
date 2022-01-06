@@ -2,7 +2,7 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+                <h2><strong><em>All Products</strong></em></strong></h2>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
@@ -11,38 +11,6 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Resources
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="resources-link">
-                <a href="{% url 'products' %}?category=junior_cert" class="dropdown-item">Junior Cert</a>
-                <a href="{% url 'products' %}?category=leaving_cert" class="dropdown-item">Leaving Cert</a>
-                <a href="{% url 'products' %}?category=lca, plc" class="dropdown-item">LCA & PLC</a>
-                <a href="{% url 'products' %}?category=junior_cert,leaving_cert,lca,plc" class="dropdown-item">All Resources</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Exams
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="exams-link">
-                <a href="{% url 'products' %}?category=coursework" class="dropdown-item">Coursework</a>
-                <a href="{% url 'products' %}?category=exam_prep" class="dropdown-item">Exam Prep</a>
-                <a href="{% url 'products' %}?category=practical_assessment" class="dropdown-item">Practical Assessment</a>
-                <a href="{% url 'products' %}?category=coursework,exam_prep,practical_assessment" class="dropdown-item">All Exam Prep</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_resources" class="dropdown-item">New resources</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">clearance</a>
-                <a href="{% url 'products' %}?category=new_resources,deals,clearance" class="dropdown-item">All specials</a>
-            </div>
-        </li>
+        
     </ul>
 </div>
