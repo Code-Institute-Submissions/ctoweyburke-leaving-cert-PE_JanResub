@@ -1,1 +1,1 @@
-Leaving Cert PE for Order Number {{ order.order_number }}
+Leaving Cert PE Confirmation for Order Number {{ order.order_number }}
