@@ -13,6 +13,7 @@ from pathlib import Path
 import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent
+import dj_database_url
 
 from os import path
 if path.exists("env.py"):
@@ -126,7 +127,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-}
+ }
+
 
 
 # Password validation
