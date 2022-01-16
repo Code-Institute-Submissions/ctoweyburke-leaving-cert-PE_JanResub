@@ -13,7 +13,7 @@ https://www.diffchecker.com/diff
 
 <h1 align="center">LC Physical Education Site</h1>
 
-[View the live project here.](https://flask-school-mgt-project.herokuapp.com/)
+[View the live project here.]()
 
 A site for teachers and students to use, to support the teaching and learning of LCPE in Ireland. Providing a service and resources that can be purchased.
 
