@@ -16,7 +16,9 @@ A site for teachers and students to use, to support the teaching and learning of
 resources that can be purchased through the website.
 
 
-<h2 align="center"><img src="static/images/responsive/amiresponsive.png"></h2>
+<h2 align="center"><img src="media/responsivesite.jpg"></h2>
+
+
 
 ## Table of Contents
 
