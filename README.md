@@ -127,20 +127,23 @@ resources that can be purchased through the website.
 
 Home Page  
 
-<img src="wireframes/">
+<img src="media/wireframes/homepage.jpg">
 
-Register Page  
+Products Page  
 
-<img src="wireframes/">
+<img src="media/wireframes/products.jpg">
 
-Log In  
+Sign Up  
 
-<img src="wireframes/">
+<img src="media/wireframes/signup.jpg">
 
-Profile Page  
+Sign In
 
-<img src="wireframes/">
+<img src="media/wireframes/signin.jpg">
 
+Shopping Bag
+
+<img src="media/wireframes/bag.jpg">
 
 ## Information Architecture
 
@@ -164,6 +167,8 @@ As Django works with SQL databases by default, I was using SQLite in development
 -   ### Images
 
 As noted, all of the project images were sourced from [Google](https://www.google.com)
+
+
 
 
 ## Deployment
