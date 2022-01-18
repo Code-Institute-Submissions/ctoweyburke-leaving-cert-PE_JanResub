@@ -125,27 +125,20 @@ resources that can be purchased through the website.
 
 Home Page  
 
-<img src="static/images/wireframes/base_lhomepage.png">
+<img src="wireframes/">
 
 Register Page  
 
-<img src="static/images/wireframes/registerpage.png">
+<img src="wireframes/">
 
 Log In  
 
-<img src="static/images/wireframes/loginpage.png">
+<img src="wireframes/">
 
 Profile Page  
 
-<img src="static/images/wireframes/profilepage.png">
+<img src="wireframes/">
 
-Add Category - People
-
-<img src="static/images/wireframes/addcategory_people.png">
-
-Add task - Event
-
-<img src="static/images/wireframes/addtask_addevent.png">
 
 ## Information Architecture
 
